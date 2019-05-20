@@ -50,6 +50,7 @@ body{
         }
         span{
             background:#F0AF2D;
+            margin-left:45%;;
         }
     }
     .drink{
@@ -61,6 +62,7 @@ body{
         }
         span{
             background:#ADD8E6;
+            margin-left:45%;
         }
     }
     .drink-warm{
@@ -72,10 +74,14 @@ body{
         }
         span{
             background:#7E3300;
+            margin-left:45%;
         }
         .restauration{
             font-size:160%;
         }
+    }
+    p{
+        text-align: center;
     }
 }
 

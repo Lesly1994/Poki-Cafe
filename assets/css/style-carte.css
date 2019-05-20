@@ -58,6 +58,7 @@ body {
 
 .main .menu span {
   background: #F0AF2D;
+  margin-left: 45%;
 }
 
 .main .drink {
@@ -72,6 +73,7 @@ body {
 
 .main .drink span {
   background: #ADD8E6;
+  margin-left: 45%;
 }
 
 .main .drink-warm {
@@ -86,10 +88,15 @@ body {
 
 .main .drink-warm span {
   background: #7E3300;
+  margin-left: 45%;
 }
 
 .main .drink-warm .restauration {
   font-size: 160%;
+}
+
+.main p {
+  text-align: center;
 }
 
 footer {

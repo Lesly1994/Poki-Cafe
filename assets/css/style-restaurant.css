@@ -1,0 +1,93 @@
+body {
+  background: #F5F5DC;
+}
+
+.jumbotron {
+  background: transparent;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.banner {
+  background: url("https://s2.best-wallpaper.net/wallpaper/2560x1600/1212/A-cup-of-coffee-coffee-beans-placed-heart-shaped-pattern_2560x1600.jpg");
+  background-size: 100%;
+  height: 300px;
+}
+
+.btn {
+  background: #DEB887;
+  border: 1px solid #DEB887;
+}
+
+.btn:hover {
+  background: #614B3A;
+  color: white;
+  border: 1px solid #614B3A;
+}
+
+.nav li {
+  padding-right: 4%;
+  padding-left: 4%;
+  letter-spacing: 1%;
+}
+
+.nav li a {
+  color: #462E01;
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+}
+
+.nav li a:hover {
+  color: #E1CE9A;
+}
+
+.main {
+  background: url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
+}
+
+.card {
+  display: block;
+  float: left;
+  margin-left: 8%;
+  margin-right: 6%;
+  margin-top: 5%;
+  padding: 1% 2%;
+}
+
+.footer {
+  background: url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
+}
+
+.footer .icon {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #462E01;
+}
+
+.footer .icon li {
+  margin-left: 175%;
+}
+
+.footer .name {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .name li {
+  margin-left: 160%;
+  font-family: 'Play', sans-serif;
+  font-size: 125%;
+}
+
+.footer .name li:hover {
+  color: #499DF5;
+}
+
+footer {
+  text-align: center;
+}

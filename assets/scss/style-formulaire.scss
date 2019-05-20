@@ -1,5 +1,6 @@
 body{
     background:#F5F5DC;
+
 }
 .jumbotron {
     background:transparent;
@@ -45,20 +46,15 @@ body{
 .card{
     display:block;
     float:left;
-    margin-left:25%;
-    margin-right:25%;
+    margin-left:8%;
+    margin-right:6%;
     margin-top:5%;
     padding:1% 2%;
-    h5{
-        font-size:99%;
-    }
-    img{
-        width:100%;
-    }
 }
 footer{
     display:block;
-    text-align: center;
     background:#F5F5DC;
+    text-align: center;
 }
+
 

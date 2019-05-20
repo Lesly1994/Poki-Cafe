@@ -1,5 +1,6 @@
 body{
     background:#F5F5DC;
+
 }
 .jumbotron {
     background:transparent;
@@ -39,26 +40,47 @@ body{
     }
 }
 .main{
-    background:url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
+    background:#462E01;
+    .menu{
+        width:120%;
+        margin-top:2%;
+        img{
+            width:100%;
+            opacity:0.4;
+        }
+        span{
+            background:#F0AF2D;
+        }
+    }
+    .drink{
+        width:120%;
+        margin-top:2%;
+        img{
+            width:100%;
+            opacity:0.4;
+        }
+        span{
+            background:#ADD8E6;
+        }
+    }
+    .drink-warm{
+        width:120%;
+        margin-top:2%;
+        img{
+            width:100%;
+            opacity:0.4;
+        }
+        span{
+            background:#7E3300;
+        }
+        .restauration{
+            font-size:160%;
+        }
+    }
+}
 
-}
-.card{
-    display:block;
-    float:left;
-    margin-left:25%;
-    margin-right:25%;
-    margin-top:5%;
-    padding:1% 2%;
-    h5{
-        font-size:99%;
-    }
-    img{
-        width:100%;
-    }
-}
+
 footer{
-    display:block;
     text-align: center;
-    background:#F5F5DC;
 }
 

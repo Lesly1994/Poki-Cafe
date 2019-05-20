@@ -45,12 +45,14 @@ body{
 }
 form{
     text-align: center;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:35%;
     label{
-        font-size:150%;
+        font-size:130%;
         color:#462E01;
         font-weight: bolder;
+    }
+    .form-group{
+        width:150%;
     }
 }
 footer{

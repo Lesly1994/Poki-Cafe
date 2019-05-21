@@ -13,4 +13,4 @@ Débuter le 17/05/2019 et terminé le 20/05/2019
 
 ## Aperçu :
 
-![site] (https://lesly1994.github.io/bootstrap-training/)
+Cliquer ici pour un aperçu du site : https://lesly1994.github.io/bootstrap-training/

@@ -47,10 +47,8 @@ body {
 }
 
 .card {
-  display: block;
-  float: left;
-  margin-left: 8%;
-  margin-right: 6%;
+  display: inline-block;
+  margin-left: 50px;
   margin-top: 5%;
   padding: 1% 2%;
 }
@@ -65,10 +63,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #462E01;
+  margin: auto;
+  padding: auto;
 }
 
 .footer .icon li {
-  margin-left: 175%;
+  margin: auto;
+  padding: auto;
 }
 
 .footer .name {
@@ -90,4 +91,8 @@ body {
 
 footer {
   text-align: center;
+}
+
+footer p {
+  margin-top: 10px;
 }

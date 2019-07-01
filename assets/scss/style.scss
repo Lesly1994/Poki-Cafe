@@ -45,33 +45,38 @@ body{
 }
 .card{
     display:inline-block;
-    margin-left:50px;
+    margin-left:14%;
     margin-top:5%;
+    margin-bottom:2%;
     padding:1% 2%;
+    img {
+        width:100%;
+    }
 }
 
 .footer{
     background:url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
-    .icon{
+    ul.icon{
         list-style:none;
-        display:flex;
         color:#462E01;
-        margin:auto;
-        padding:auto;
         li{
-            margin:auto;
-            padding: auto;
+            display: inline-block;
+            i{
+                margin-left:450px;
+            }
         }
     }
-    .name{
+    ul.name{
         list-style:none;
-        display:flex;
         li{
-            margin-left:160%;
+            display:inline-block;
             font-family: 'Play', sans-serif;
             font-size:125%;
             &:hover{
                 color:#499DF5;
+            }
+            a{ 
+                margin-left:415px;
             }
         }
     }

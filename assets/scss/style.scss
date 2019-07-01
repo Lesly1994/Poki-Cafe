@@ -7,6 +7,21 @@ body{
     color:white;
     height:300px;
     text-align: center;
+    h1{
+        font-weight: bolder;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 3px black;
+    }
+    p.lead{
+        font-weight: bold;
+        letter-spacing:1px;
+        text-shadow: 2px 2px 3px black;
+    }
+    p{
+        font-weight:bold;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 3px black;
+    }
 }
 .banner{
     background:url("https://s2.best-wallpaper.net/wallpaper/2560x1600/1212/A-cup-of-coffee-coffee-beans-placed-heart-shaped-pattern_2560x1600.jpg");

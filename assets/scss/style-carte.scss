@@ -59,50 +59,60 @@ body{
 }
 }
 .main{
-    background:#462E01;
     .menu{
-        width:120%;
+        width:100%;
         margin-top:2%;
+        .card-img-overlay{
+            .x{
+                float:left;
+            }
+            .y{
+                float:right;
+            }
+
+        }
         img{
             width:100%;
-            opacity:0.4;
+            opacity:0.8;
         }
         span{
             background:#F0AF2D;
-            margin-left:45%;;
         }
-    }
-    .drink{
-        width:120%;
-        margin-top:2%;
-        img{
-            width:100%;
-            opacity:0.4;
-        }
-        span{
-            background:#ADD8E6;
-            margin-left:45%;
-        }
-    }
-    .drink-warm{
-        width:120%;
-        margin-top:2%;
-        img{
-            width:100%;
-            opacity:0.4;
-        }
-        span{
-            background:#7E3300;
-            margin-left:45%;
-        }
-        .restauration{
-            font-size:160%;
-        }
-    }
-    p{
-        text-align: center;
-    }
+}
+    // .drink{
+    //     width:120%;
+    //     margin-top:2%;
+    //     img{
+    //         width:100%;
+    //         opacity:0.4;
+    //     }
+    //     span{
+    //         background:#ADD8E6;
+    //         margin-left:45%;
+    //     }
+    // }
+    // .drink-warm{
+    //     width:120%;
+    //     margin-top:2%;
+    //     img{
+    //         width:100%;
+    //         opacity:0.4;
+    //     }
+    //     span{
+    //         background:#7E3300;
+    //         margin-left:45%;
+    //     }
+    //     .restauration{
+    //         font-size:160%;
+    //     }
+    // }
 }
 footer{
-    text-align: center;
+    p{
+        margin-top:10px;
+        text-align: center;
+    }
+    .fab{
+        padding-top:2%;
+    }
 }

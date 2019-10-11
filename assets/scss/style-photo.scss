@@ -75,7 +75,11 @@ body{
     margin-top:5%;
 }
 footer{
-    display:block;
-    background:#F5F5DC;
-    text-align: center;
+    p{
+        margin-top:10px;
+        text-align: center;
+    }
+    .fab{
+        padding-top:2%;
+    }
 }

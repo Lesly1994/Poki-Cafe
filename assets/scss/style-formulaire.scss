@@ -43,22 +43,15 @@ body{
     background:url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
 
 }
-form{
-    text-align: center;
-    margin-left:35%;
-    label{
-        font-size:130%;
-        color:#462E01;
-        font-weight: bolder;
-    }
-    .form-group{
-        width:150%;
-    }
-}
+
 footer{
-    display:block;
-    background:#F5F5DC;
-    text-align: center;
+    p{
+        margin-top:10px;
+        text-align: center;
+    }
+    .fab{
+        padding-top:2%;
+    }
 }
 
 

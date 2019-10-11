@@ -39,71 +39,42 @@ body{
 
 }
 .nav{
-    ul.nav{
-        margin-left:5%;
-        margin-right:5%;
-        margin:auto;
-    li{
-        letter-spacing:1%;
-        margin-left:5%;
-        margin-right:5%;
         a{
             color:#462E01;
             font-family: 'Satisfy', cursive;
-            font-size:35px;
+            font-size:30px;
                 &:hover{
-                    color:#E1CE9A;
+                    color:black;
             }
         }
     }
-}
-}
+
 .main{
     background:url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
-
+    padding-bottom: 5%;
 }
 .card{
-    display:inline-block;
-    margin-left:14%;
     margin-top:5%;
     margin-bottom:2%;
     padding:1% 2%;
+    .card-body{
+        text-align:center;
+    }
     img {
         width:100%;
     }
 }
 
-.footer{
-    background:url("http://s1.1zoom.me/b5050/963/Texture_Boards_Wooden_478676_3840x2400.jpg") no-repeat;
-    ul.icon{
-        list-style:none;
-        color:#462E01;
-        li{
-            display: inline-block;
-            i{
-                margin-left:450px;
-            }
-        }
-    }
-    ul.name{
-        list-style:none;
-        li{
-            display:inline-block;
-            font-family: 'Play', sans-serif;
-            font-size:125%;
-            &:hover{
-                color:#499DF5;
-            }
-            a{ 
-                margin-left:415px;
-            }
-        }
-    }
-}
+
 footer{
-    text-align: center;
     p{
         margin-top:10px;
+        text-align: center;
+    }
+    .fab{
+        padding-top:2%;
     }
 }
+
+
 

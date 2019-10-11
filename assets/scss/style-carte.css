@@ -71,14 +71,6 @@ body {
   margin-top: 2%;
 }
 
-.main .menu .card-img-overlay .x {
-  float: left;
-}
-
-.main .menu .card-img-overlay .y {
-  float: right;
-}
-
 .main .menu img {
   width: 100%;
   opacity: 0.8;
@@ -86,6 +78,10 @@ body {
 
 .main .menu span {
   background: #F0AF2D;
+}
+
+.main .menu .card-text {
+  text-align: left;
 }
 
 footer p {

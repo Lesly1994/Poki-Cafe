@@ -62,21 +62,15 @@ body{
     .menu{
         width:100%;
         margin-top:2%;
-        .card-img-overlay{
-            .x{
-                float:left;
-            }
-            .y{
-                float:right;
-            }
-
-        }
         img{
             width:100%;
             opacity:0.8;
         }
         span{
             background:#F0AF2D;
+        }
+        .card-text{
+            text-align: left;
         }
 }
     // .drink{

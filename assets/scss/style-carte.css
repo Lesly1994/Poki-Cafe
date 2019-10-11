@@ -76,14 +76,6 @@ body {
   opacity: 0.8;
 }
 
-.main .menu span {
-  background: #F0AF2D;
-}
-
-.main .menu .card-text {
-  text-align: left;
-}
-
 footer p {
   margin-top: 10px;
   text-align: center;
